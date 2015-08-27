@@ -365,8 +365,9 @@ a {
 
 }
 
-.post-title h1 {
+.main-content h1 {
 	float: none;
+	color: black;
 }
 
 .post .post-content h1, .docs .post-content h1 {
@@ -390,7 +391,7 @@ a {
 }
 
 .author {
-font-size: 0.4rem;
+font-size: 0.7rem;
 font-style: italic;
 }
 
