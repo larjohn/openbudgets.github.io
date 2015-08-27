@@ -389,6 +389,11 @@ a {
     margin-bottom: 1.5em;
 }
 
+.post-content p{
+line-height: 0em;
+margin-bottom: 0em;
+}
+
 .author {
 font-size: 0.7rem;
 font-style: italic;
