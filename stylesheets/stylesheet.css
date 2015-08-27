@@ -4,16 +4,106 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #2d2d2d;
+  font-family: "OpenSansRegular",Helvetica,Arial,sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  }
 
 a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+    
+
+header {
+display: block;
+}
+
+header #header-nav {
+    float: right;
+    position: relative;
+}
+header #header-nav {
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    text-align: right;
+    display: block;
+}
+
+header #header-nav {
+    text-align: right;
+}
+
+#nav-secondary {
+    color: #8e8e8e;
+    font-size: 16px;
+    line-height: 1em;
+    margin-bottom: 17px;
+    margin-left: 0;
+    margin-top: 17px;
+    vertical-align: middle;
+}
+
+.nav-simple {
+    list-style: outside none none;
+}
+.nav-simple {
+    display: inline-block;
+    list-style: outside none none;
+    padding: 0;
+}
+ul, ol {
+    margin-bottom: 11px;
+    margin-top: 0;
+}
+
+li { display: inline;
+}
+
+
+
+#nav-secondary a:link, #nav-secondary a:visited {
+    color: #2d2d2d;
+}
+.nav-simple li a {
+    margin-right: 16px;
+    padding: 3px 0;
+}
+
+.nav-simple li a:hover, li a.active {
+    color: #99c862;
+}
+
+a {
+    color: #7ab800;
+    text-decoration: none;
+}
+
+.social-links a {
+    border: 1px solid #333;
+    border-radius: 16px;
+    color: #333;
+    display: inline-block;
+    height: 32px;
+    line-height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    width: 32px;
+}
+
+
+.fa {
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
 
 .btn {
   display: inline-block;
@@ -57,7 +147,9 @@ a {
   color: #fff;
   text-align: center;
   background-repeat: no-repeat;
-  background-image: url("http://happyinteriorblog.com/wp-content/uploads/2015/08/logo-ob_800px.png"); }
+  background-image: url("http://happyinteriorblog.com/wp-content/uploads/2015/08/logo-ob_800px.png"); 
+  width: 400px;
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
