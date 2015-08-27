@@ -1,2 +1,2 @@
-# openbudgets.eu.github.io
+# openbudgets.github.io
 Staging website
