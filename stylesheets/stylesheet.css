@@ -384,8 +384,7 @@ a {
 }
 
 .post .post-content p, .docs .post-content p {
-    
-    font-size: 0.9375rem;
+ font-size: 0.9375rem;
     line-height: 1.6em;
     margin-bottom: 1.5em;
 }
@@ -395,6 +394,9 @@ font-size: 0.7rem;
 font-style: italic;
 }
 
+.author ul {
+margin-left: -2.5rem;
+}
 
 .post .post-content .author, .docs .post-content .author {
     font-family: "Lora",Georgia,Cambria,"Times New Roman",Times,serif;
