@@ -130,6 +130,8 @@ a {
   .banner {
     background: #83bf5b none repeat scroll 0 0;
     position: relative;
+    color: white;
+    padding: 0.8rem;
 }
 
 @media screen and (min-width: 64em) {
@@ -191,12 +193,12 @@ a {
     font-size: 1.75rem; } }
 
 .project-tagline {
-    color: #333333;
+    /*color: #333333;*/
     font-weight: normal;
     margin-bottom: 2rem;
     margin-left: 10rem;
     margin-top: 60px;
-    opacity: 0.7;
+    /*opacity: 0.7;*/
 }
 
 @media screen and (min-width: 64em) {
