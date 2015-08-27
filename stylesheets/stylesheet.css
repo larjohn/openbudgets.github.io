@@ -352,3 +352,60 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+/**** Events page styles ****/
+
+.post .post-content, .docs .post-content {
+    text-align: left;
+}
+.post-content {
+    display: block;
+    float: left;
+    margin-left: 17.0596%;
+    margin-right: 2.35765%;
+    width: 65.8808%;
+}
+
+.post .post-content h1, .docs .post-content h1 {
+    font-size: 2.6em;
+     margin-bottom: 0.5em;
+     line-height: 1.2;
+}
+
+.post .post-content h2, .docs .post-content h2 {
+    font-size: 1.4em;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 0.4em;
+}
+
+.post .post-content p, .docs .post-content p {
+    
+    font-size: 0.9375rem;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+}
+
+.post .post-content .author, .docs .post-content .author {
+    font-family: "Lora",Georgia,Cambria,"Times New Roman",Times,serif;
+    font-style: italic;
+    margin-bottom: 1.5em;
+    margin-top: -1em;
+}
+
+.post .post-content .author ul, .docs .post-content .author ul {
+    display: inline;
+    padding: 0;
+}
+.post .post-content ul, .docs .post-content ul {
+    list-style-type: disc;
+    margin-bottom: 0.75em;
+    padding-left: 1.5em;
+}
+
+.post .post-content p, .docs .post-content p {
+    
+    font-size: 0.9375rem;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+}
