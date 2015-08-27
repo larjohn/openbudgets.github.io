@@ -18,7 +18,8 @@ a {
     
 
 header {
-display: block;
+    display: block;
+    margin: 20px 5px 20px 15px;
 }
 
 header #header-nav {
