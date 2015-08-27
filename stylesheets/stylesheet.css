@@ -148,7 +148,8 @@ a {
 
 .page-header {
   margin-top: 20px;
-  color: #fff;
+  min-height: 5.1rem;
+  color: transparent;
   text-align: center;
   background-repeat: no-repeat;
   background-image: url("http://happyinteriorblog.com/wp-content/uploads/2015/08/logo-ob_800px.png"); 
@@ -185,9 +186,10 @@ a {
     font-size: 1.75rem; } }
 
 .project-tagline {
-    color: #2d2d2d;
+    color: #333333;
     font-weight: normal;
     margin-bottom: 2rem;
+    margin-left: 10rem;
     margin-top: 60px;
     opacity: 0.7;
 }
