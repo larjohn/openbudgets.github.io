@@ -144,11 +144,17 @@ a {
       margin-left: 0; } }
 
 .page-header {
+  margin-top: 20px;
   color: #fff;
   text-align: center;
   background-repeat: no-repeat;
   background-image: url("http://happyinteriorblog.com/wp-content/uploads/2015/08/logo-ob_800px.png"); 
-  width: 400px;
+  	background-size: 400px ;
+}
+
+img.resize{
+    width:540px; /* you can use % */
+    height: auto;
 }
 
 @media screen and (min-width: 64em) {
