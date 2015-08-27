@@ -362,8 +362,11 @@ a {
     display: block;
     float: left;
     margin-left: 17.0596%;
-    margin-right: 2.35765%;
-    width: 65.8808%;
+
+}
+
+.post-title h1 {
+	float: none;
 }
 
 .post .post-content h1, .docs .post-content h1 {
@@ -385,6 +388,12 @@ a {
     line-height: 1.6em;
     margin-bottom: 1.5em;
 }
+
+.author {
+font-size: 0.4rem;
+font-style: italic;
+}
+
 
 .post .post-content .author, .docs .post-content .author {
     font-family: "Lora",Georgia,Cambria,"Times New Roman",Times,serif;
