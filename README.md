@@ -1,2 +1,2 @@
 # openbudgets.github.io
-Staging website
+Website
